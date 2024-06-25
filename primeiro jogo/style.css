@@ -1,0 +1,117 @@
+body , html{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    inset: 0;
+    position: absolute;
+    background-color: #455d7a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 30px;
+    color: white;
+}
+
+.vencedores{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 30px;
+    color: white;
+    height: 480px;
+}
+
+.mensagem{
+    z-index: 1;
+    transform: translateY(-500px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    width: 100%;
+    height: 120px;
+    color: white;
+}
+
+.mensagem p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.57);
+    height: 70px;
+}
+
+.mensagem p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 30px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.57);
+}
+
+text{
+    cursor: pointer;
+}
+
+.tick-tack {
+    border-radius: 12px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    background-color: rgb(213, 209, 209);
+    border-radius: 5px;
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    font-weight: bold;
+    color: #455d7a3a;
+}
+
+.box:hover {
+    background-color: rgba(255, 255, 255, 0.572);
+}
+
+.box-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}

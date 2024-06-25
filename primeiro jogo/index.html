@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width= , initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<div class="mensagem">
+  <p1 id="resposta">PLAYER 1 VENCEU!</p1>
+  <p2><text onclick="resetGame()">Recomeçar!</text></p2>
+</div>
+
+<body>
+  <div class="titulo">
+    <p1>J</p1>
+    <p1>O</p1>
+    <p1>G</p1>
+    <p1>O</p1>
+    <br>
+    <p1>D</p1>
+    <p1>A</p1>
+    <br>
+    <p1>V</p1>
+    <p1>E</p1>
+    <p1>L</p1>
+    <p1>H</p1>
+    <p1>A</p1>
+  </div>
+
+  <div class="vencedores">
+    <div class="tituloS">Últimos vencedores:</div>
+    <div class="venc1"></div>
+    <div class="venc2"></div>
+    <div class="venc3"></div>
+    <div class="venc4"></div>
+    <div class="venc5"></div>
+    <div class="venc6"></div>
+  </div>
+
+  <div class="tick-tack">
+
+    <div class="container">
+
+      <div class="box-row">
+        <div class="box" id="00" onclick="mark([0,0])"></div>
+        <div class="box" id="01" onclick="mark([0,1])"></div>
+        <div class="box" id="02" onclick="mark([0,2])"></div>
+      </div>
+
+      <div class="box-row">
+        <div class="box" id="10" onclick="mark([1,0])"></div>
+        <div class="box" id="11" onclick="mark([1,1])"></div>
+        <div class="box" id="12" onclick="mark([1,2])"></div>
+      </div>
+
+      <div class="box-row">
+        <div class="box" id="20" onclick="mark([2,0])"></div>
+        <div class="box" id="21" onclick="mark([2,1])"></div>
+        <div class="box" id="22" onclick="mark([2,2])"></div>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
